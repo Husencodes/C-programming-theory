@@ -74,11 +74,10 @@ o Executable part<br>
 5. User-Defined Functions Section: Additional functions defined by the programmer.<br>
 
 Example:<br>
-#include <stdio.h>
 
-int main() {<br>
+    #include <stdio.h>
+    int main() {<br>
     int a, b, sum;<br>
-
     a = 5;
     b = 10;
     sum = a + b;
@@ -86,5 +85,40 @@ int main() {<br>
     printf("Sum = %d", sum);
 
     return 0;
-}<br>
+    }<br>
 
+## 3. Explain the compilation process in C.<br>
+The compilation process involves several stages:<br>
+1. Preprocessing: Handles directives such as #include and #define. Creates an expanded source code.<br>
+2. Compilation: Converts the expanded code into assembly language.<br>
+3. Assembly: Translates assembly code into machine code and generates an object file.<br>
+4. Linking: Links the object file with standard library functions to create an executable file.<br>
+5. Loading and Execution: The loader loads the file into memory and the CPU executes the program.<br>
+
+## 4. Discuss the different data types in C with examples<br>
+C supports several data types:<br>
+### 1. Basic Data Types:<br>
+o **int →** stores integers → Example: int a = 10;<br>
+o **float →** stores decimal values → Example: float x = 3.14;<br>
+o **char →** stores single character → Example: char c = 'A';<br>
+o **double →** stores double-precision numbers → Example: double d = 10.3456;<br>
+### 2. Derived Data Types:<br>
+o **arrays** → Example: int a[5];<br>
+o **pointers →** Example: int *p;<br>
+o **functions →** Example: user-defined functions<br>
+o **structures →** Example: struct student { ... };<br>
+### 3. Enumeration Data Type:<br>
+o **enum →** assigns names to integer constants. Example:<br>
+o enum days {Mon, Tue, Wed};<br>
+4. **Void Data Type**:<br>
+o Represents empty value or no return type. Example: void display();<br>
+
+## 5. Describe the basic C tokens with examples.<br>
+C tokens are the smallest individual units of a C program. They include:<br>
+1. **Keywords:** Reserved words with special meaning.<br> Example: int, return, while<br>
+2. **Identifiers:** Names given to variables, functions, etc. <br>Example: sum, main, age<br>
+3. **Constants:** Fixed values that do not change.<br> Example: 10, 3.14, 'A'<br>
+4.**Strings:** Sequence of characters.<br> Example: "Hello"<br>
+5.** Operators:** Symbols used to perform operations.<br> Example: +, -, *, /, ==<br>
+6.** Special Symbols:** Symbols with special meaning.<br> Example: { }, ( ), [ ], ;<br>
+7. **Punctuators:** Used to separate statements. <br>Example: comma ,, semicolon ;<br>
