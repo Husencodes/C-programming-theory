@@ -26,7 +26,7 @@ A good algorithm should have:
 2. Finite steps – it must finish after a limited number of steps.
 3. Correct output – it should give the right result for all valid inputs.
 4. Efficiency – it should use minimum time and memory.
-
+<br>
 
 
 3. What is a flowchart?
