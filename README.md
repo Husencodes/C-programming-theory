@@ -29,3 +29,23 @@ A good algorithm should have:
 3. What is a flowchart?
 A flowchart is a graphical representation of an algorithm or process using symbols to show the flow of steps.
 EX :- alogoritm same
+
+4. Mention any two symbols used in flowcharts.
+• Oval → Start/Stop
+• Parallelogram → Input/Output
+(You can also mention: Rectangle → Process, Diamond → Decision)
+
+
+5. What are keywords in C?
+Keywords are reserved words in C that have special meaning and cannot be used as variable names. Example: int, return.
+
+6. What is a variable in C?
+A variable is a named memory location used to store data that can change during program execution.
+
+7. What is meant by symbolic constant?
+A symbolic constant is a name that represents a fixed value defined using #define or const, and it cannot be changed during program execution.
+
+8. Name any two features of C language.
+• Portability (write once, run anywhere)
+• Modularity (programs can be divided into functions)
+(You can also write: Fast execution, Rich library, Structured language)
