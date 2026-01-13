@@ -6,7 +6,7 @@ Prepared by Husen
 
 # UNIT – I: Problem Solving and Introduction to C 
 <br>
-2 Marks Questions
+## 2 Marks Questions
 
 ## 1.Define an algorithm.?
 <br>
@@ -51,3 +51,35 @@ A symbolic constant is a name that represents a fixed value defined using #defin
 • Portability (write once, run anywhere)<br>
 • Modularity (programs can be divided into functions)<br>
 (You can also write: Fast execution, Rich library, Structured language)<br>
+
+
+## 5 Marks Questions<br>
+
+## 1. Explain the steps involved in creating and executing a C program.<br>
+The following steps are involved in creating and executing a C program:<br>
+1. Creating the Program (Editing): The programmer writes the source code using a text editor and saves it with the extension .c.<br>
+2. Compilation: The compiler checks the program for errors (syntax/semantic) and converts the source code into an object file (.obj or .o).<br>
+3. Linking: The linker combines the object file with necessary library files and creates an executable file (.exe).<br>
+4. Loading: The loader loads the executable file into the main memory for execution.<br>
+5. Execution: The CPU executes the instructions and displays the output.<br>
+
+## 2. Write a short note on the structure of a C program with an example.<br>
+A C program has the following basic structure:<br>
+1. Documentation Section: Comment lines used to describe the program.<br> Example: /* Program to add two numbers */<br>
+2. Link Section: Contains header file inclusions. Example: #include <stdio.h><br>
+3. Global Declaration Section: Variables or functions declared globally.<br>
+4. main() Function Section: The starting point of every C program. It contains:<br>
+o Declaration part<br>
+o Executable part<br>
+5. User-Defined Functions Section: Additional functions defined by the programmer.<br>
+
+Example:<br>
+#include <stdio.h>
+int main() {
+int a, b, sum;
+a = 5;
+b = 10;
+sum = a + b;
+printf("Sum = %d", sum);
+return 0;
+}<br>
