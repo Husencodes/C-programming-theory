@@ -57,11 +57,11 @@ A symbolic constant is a name that represents a fixed value defined using #defin
 
 ## 1. Explain the steps involved in creating and executing a C program.<br>
 The following steps are involved in creating and executing a C program:<br>
-1. Creating the Program (Editing): The programmer writes the source code using a text editor and saves it with the extension .c.<br>
-2. Compilation: The compiler checks the program for errors (syntax/semantic) and converts the source code into an object file (.obj or .o).<br>
-3. Linking: The linker combines the object file with necessary library files and creates an executable file (.exe).<br>
-4. Loading: The loader loads the executable file into the main memory for execution.<br>
-5. Execution: The CPU executes the instructions and displays the output.<br>
+1. **Creating the Program (Editing):** The programmer writes the source code using a text editor and saves it with the extension .c.<br>
+2. **Compilation:** The compiler checks the program for errors (syntax/semantic) and converts the source code into an object file (.obj or .o).<br>
+3. **Linking:** The linker combines the object file with necessary library files and creates an executable file (.exe).<br>
+4. **Loading:** The loader loads the executable file into the main memory for execution.<br>
+5. **Execution:** The CPU executes the instructions and displays the output.<br>
 
 ## 2. Write a short note on the structure of a C program with an example.<br>
 A C program has the following basic structure:<br>
