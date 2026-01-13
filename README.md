@@ -37,9 +37,7 @@ EX :- alogoritm same
 4. Mention any two symbols used in flowcharts.
    <br>
 • Oval → Start/Stop
-<br>
 • Parallelogram → Input/Output
-<br>
 (You can also mention: Rectangle → Process, Diamond → Decision)
 
 5. What are keywords in C?
