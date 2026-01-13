@@ -65,13 +65,13 @@ The following steps are involved in creating and executing a C program:<br>
 
 ## 2. Write a short note on the structure of a C program with an example.<br>
 A C program has the following basic structure:<br>
-1. Documentation Section: Comment lines used to describe the program.<br> Example: /* Program to add two numbers */<br>
-2. Link Section: Contains header file inclusions. Example: #include <stdio.h><br>
-3. Global Declaration Section: Variables or functions declared globally.<br>
-4. main() Function Section: The starting point of every C program. It contains:<br>
-o Declaration part<br>
-o Executable part<br>
-5. User-Defined Functions Section: Additional functions defined by the programmer.<br>
+1. **Documentation Section:** Comment lines used to describe the program.<br> Example: /* Program to add two numbers */<br>
+2. **Link Section:** Contains header file inclusions. Example: #include <stdio.h><br>
+3. **Global Declaration Section:** Variables or functions declared globally.<br>
+4. **main() Function Section:** The starting point of every C program. It contains:<br>
+o  Declaration part<br>
+o  Executable part<br>
+5. **User-Defined Functions Section:** Additional functions defined by the programmer.<br>
 
 Example:<br>
 
@@ -89,11 +89,11 @@ Example:<br>
 
 ## 3. Explain the compilation process in C.<br>
 The compilation process involves several stages:<br>
-1. Preprocessing: Handles directives such as #include and #define. Creates an expanded source code.<br>
-2. Compilation: Converts the expanded code into assembly language.<br>
-3. Assembly: Translates assembly code into machine code and generates an object file.<br>
-4. Linking: Links the object file with standard library functions to create an executable file.<br>
-5. Loading and Execution: The loader loads the file into memory and the CPU executes the program.<br>
+1. **Preprocessing:** Handles directives such as #include and #define. Creates an expanded source code.<br>
+2. **Compilation:** Converts the expanded code into assembly language.<br>
+3. **Assembly:** Translates assembly code into machine code and generates an object file.<br>
+4. **Linking:** Links the object file with standard library functions to create an executable file.<br>
+5.  **Loading and Execution:** The loader loads the file into memory and the CPU executes the program.<br>
 
 ## 4. Discuss the different data types in C with examples<br>
 C supports several data types:<br>
@@ -120,5 +120,5 @@ C tokens are the smallest individual units of a C program. They include:<br>
 3. **Constants:** Fixed values that do not change.<br> Example: 10, 3.14, 'A'<br>
 4.**Strings:** Sequence of characters.<br> Example: "Hello"<br>
 5.** Operators:** Symbols used to perform operations.<br> Example: +, -, *, /, ==<br>
-6.** Special Symbols:** Symbols with special meaning.<br> Example: { }, ( ), [ ], ;<br>
+6.**Special Symbols:** Symbols with special meaning.<br> Example: { }, ( ), [ ], ;<br>
 7. **Punctuators:** Used to separate statements. <br>Example: comma ,, semicolon ;<br>
