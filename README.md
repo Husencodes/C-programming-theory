@@ -9,6 +9,7 @@ UNIT – I: Problem Solving and Introduction to C
 2 Marks Questions
 
 1.Define an algorithm.?
+<br>
 ANS:- An algorithm is step by step procedure desgine to perform a specific task or solve particular problem
 EX:- Algorithm to add two numbers
 1. Start
@@ -18,6 +19,7 @@ EX:- Algorithm to add two numbers
 5. Stop
 
 2.What are the characteristics of a good algorithm?
+<br>
 ANS:-
 A good algorithm should have:
 1. Clear and simple steps – no confusion in instructions.
@@ -27,6 +29,7 @@ A good algorithm should have:
 
 
 3. What is a flowchart?
+   <br>
 A flowchart is a graphical representation of an algorithm or process using symbols to show the flow of steps.
 EX :- alogoritm same
 
@@ -37,7 +40,6 @@ EX :- alogoritm same
 • Parallelogram → Input/Output
 <br>
 (You can also mention: Rectangle → Process, Diamond → Decision)
-
 
 5. What are keywords in C?
    <br>
