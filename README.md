@@ -1,7 +1,42 @@
-# C-programming-theory
-Score good marks in your semester exams using this repo
-<br>
-Prepared by Husen
+# 📘 C Programming – Theory Notes
+
+This repository contains **C Programming theory notes** prepared for  
+**BCA,BE,Bsc students** and **exam preparation**.
+
+---
+
+## 📂 Contents
+- Unit-wise C Programming theory
+- 2 Marks, 5 Marks & 10 Marks questions
+- Exam-oriented answers
+- Clear explanations with examples
+
+
+
+## 🎯 Useful For
+- BCA / BSc / Diploma students
+- Semester exams
+- C programming revision
+- Beginners in C language
+
+---
+
+## 🛠️ Tools & Topics
+- C Programming
+- Problem Solving
+- Algorithms & Flowcharts
+- Arrays, Functions, Pointers
+- Structures & File Handling
+
+---
+
+## 👤 Author
+**Husen**  
+**BCA Student at SVK College | Koppal**  
+---
+
+⭐ If this helps you, give the repo a star!
+
 
 
 # UNIT – I: Problem Solving and Introduction to C 
