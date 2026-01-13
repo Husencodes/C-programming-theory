@@ -75,11 +75,16 @@ o Executable part<br>
 
 Example:<br>
 #include <stdio.h>
-int main() {
-int a, b, sum;
-a = 5;
-b = 10;
-sum = a + b;
-printf("Sum = %d", sum);
-return 0;
+
+int main() {<br>
+    int a, b, sum;<br>
+
+    a = 5;
+    b = 10;
+    sum = a + b;
+
+    printf("Sum = %d", sum);
+
+    return 0;
 }<br>
+
