@@ -4,11 +4,11 @@ Score good marks in your semester exams using this repo
 Prepared by Husen
 
 
-#UNIT – I: Problem Solving and Introduction to C 
+# UNIT – I: Problem Solving and Introduction to C 
 <br>
 2 Marks Questions
 
-##1.Define an algorithm.?
+## 1.Define an algorithm.?
 <br>
 ANS:- An algorithm is step by step procedure desgine to perform a specific task or solve particular problem
 EX:- Algorithm to add two numbers
