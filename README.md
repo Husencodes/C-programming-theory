@@ -28,6 +28,7 @@ A good algorithm should have:
 4. Efficiency – it should use minimum time and memory.
 
 
+
 3. What is a flowchart?
    <br>
 A flowchart is a graphical representation of an algorithm or process using symbols to show the flow of steps.
