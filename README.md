@@ -40,22 +40,16 @@ EX :- alogoritm same
 • Parallelogram → Input/Output<br>
 (You can also mention: Rectangle → Process, Diamond → Decision)
 
-5. What are keywords in C?
-   <br>
+5. What are keywords in C?<br>
 Keywords are reserved words in C that have special meaning and cannot be used as variable names. Example: int, return.
 
-6. What is a variable in C?
- <br>
+6. What is a variable in C? <br>
 A variable is a named memory location used to store data that can change during program execution.
 
-7. What is meant by symbolic constant?
- <br>
+7. What is meant by symbolic constant?<br>
 A symbolic constant is a name that represents a fixed value defined using #define or const, and it cannot be changed during program execution.
 
-8. Name any two features of C language.
-    <br>
-• Portability (write once, run anywhere)
-<br>
-• Modularity (programs can be divided into functions)
-<br>
+8. Name any two features of C language.<br>
+• Portability (write once, run anywhere)<br>
+• Modularity (programs can be divided into functions)<br>
 (You can also write: Fast execution, Rich library, Structured language)
