@@ -183,6 +183,35 @@ A flowchart is a graphical representation of an algorithm using standard symbols
 • Rectangle → Process<br>
 • Diamond → Decision <br>
 
-**Explanation **<br>
+**Explanation**<br>
 • The flowchart visually shows the steps of the algorithm. <br>
 • Input/output and processing steps are clearly represented.<br> 
+
+
+## 2. Describe the structure of a C program and explain each section.<br> 
+A C program is divided into several logical sections. The typical structure is:<br>
+1. **Documentation Section** o Contains comments describing the program, purpose, and author.<br>
+  Example: /* Program to add two numbers */<br>
+2. **Link Section** o Includes header files using #include. o Provides access to library functions.<br>
+   Example: #include <stdio.h><br>
+3.**Definition Section** o Used to define symbolic constants using #define. Example: #define PI 3.14<br>
+4. **Global Declaration Section** o Global variables, user-defined function prototypes are declared here.<br>
+    Example: int x; void display();<br>
+5. **main() Function Section** o The entry point of every C program. o Contains two parts:<br>
+   a) **Declaration Part** – local variables are declared<br>
+   b) **Execution Part** – program logic is written <br>
+Example<br>
+**int main() {
+ int a, b, sum;   // Declaration
+sum = a + b;     // Execution
+return 0;
+ }**
+
+6. **User-Defined Function Section**
+ Functions written by the programmer.
+  o Provides modularity and reusability.
+   Example:
+        void display() {
+         printf("Hello");
+     } 
+ 
