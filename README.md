@@ -157,3 +157,32 @@ C tokens are the smallest individual units of a C program. They include:<br>
 5.** Operators:** Symbols used to perform operations.<br> Example: +, -, *, /, ==<br>
 6.**Special Symbols:** Symbols with special meaning.<br> Example: { }, ( ), [ ], ;<br>
 7. **Punctuators:** Used to separate statements. <br>Example: comma ,, semicolon ;<br>
+
+# 10 Marks Questions <br>
+## 1. Explain the algorithm and flowchart with a suitable example. 
+Algorithm <br>
+## Algorithm  <br>
+An algorithm is a step-by-step, finite set of instructions used to solve a problem. Characteristics of a good algorithm:  <br>
+• Clear and unambiguous <br>
+• Stepwise  <br>
+• Finite  <br>
+• Effective <br>
+• Input/output defined  <br>
+
+**Example Algorithm: Add Two Numbers** <br>
+1. Start<br>
+2. Read two numbers A and B<br>
+3. Add A and B → SUM<br>
+4. Display SUM<br>
+5. Stop<br>
+
+## Flowchart <br>
+A flowchart is a graphical representation of an algorithm using standard symbols such as: <br>
+• Oval → Start/Stop<br
+• Parallelogram → Input/Output <br>
+• Rectangle → Process<br>
+• Diamond → Decision <br>
+
+**Explanation **<br>
+• The flowchart visually shows the steps of the algorithm. <br>
+• Input/output and processing steps are clearly represented.<br> 
