@@ -244,7 +244,7 @@ enum days {Mon, Tue, Wed, Thu};<br>
 Represents "nothing" or "no value."<br>
 Example:<br>
 void display();<br>
-**Declaration of Variables**<br>
+## **Declaration of Variables**<br>
 A variable declaration tells the compiler:<br>
 •	the name of the variable<br>
 •	the type of data it will store<br>
@@ -255,13 +255,64 @@ data_type variable_name;<br>
 **float** marks;<br>
 **char** ch;<br>
 **double** salary;<br>
-**Multiple variable declaration**<br>
+## **Multiple variable declaration**<br>
 **int** a, b, c;<br>
 **float** x, y;<br>
-**Initialization during declaration**:<br>
+## **Initialization during declaration**:<br>
 **int** a = 10;<br>
 **char** c = 'A';<br>
 **float** pi = 3.14;<br>
 
 
 
+
+# UNIT – II: Input/Output and Operators<br>
+## 2 Marks Questions<br>
+
+## 1. Differentiate between formatted and unformatted I/O functions.<br>
+## Formatted I/O:<br>
+•	Functions that allow input/output in a specific format.<br>
+•	Examples: printf(), scanf()<br>
+•	We can control the type, width, precision, etc.<br>
+## Unformatted I/O:<br>
+•	Functions that handle data without any specific format.<br>
+•	**Examples:** getchar(), putchar(), gets(), puts(), gets_s()<br>
+•	Used for single characters or strings.<br>
+________________________________________
+## 2. Write the syntax of printf() and scanf().<br>
+printf():<br>
+**printf("format string", arguments);** <br>
+scanf():<br>
+**scanf("format string", &variables);** <br>
+
+## 3. What are escape sequences? Give examples<br>
+Escape sequences are special character combinations that represent non-printable characters in a string.<br>
+Examples:<br>
+•	**\n** – New line<br>
+•	**\t** – Horizontal tab<br>
+•	\\ – Backslash<br>
+•	**\"** – Double quote<br>
+
+## 4. What is an arithmetic operator? <br>
+Arithmetic operators are symbols used to perform mathematical operations like addition, subtraction, multiplication, etc. <br>
+**Examples:** +, -, *, /, % <br>
+
+## 5. Define relational operators. <br>
+Relational operators are used to compare two values and return either true (1) or false (0).  <br>
+Examples: >, <, >=, <=, ==, != <br>
+
+## 6. What are increment and decrement operators? <br>
+These operators are used to increase or decrease a variable’s value by 1. <br>
+•	Increment operator: ++ (adds 1) <br>
+•	Decrement operator: -- (subtracts 1) <br>
+**Examples:** i++, --j <br>
+
+## 7. Define type conversion. <br>
+Type conversion is the process of converting one data type into another. <br>
+It can be: <br>
+•	Implicit (automatic by the compiler) <br>
+•	Explicit (forced by the programmer using casting) <br>
+
+## 8. What is operator precedence? <br>
+Operator precedence defines the order in which operators are evaluated in an expression. <br>
+**Example:** * and / have higher precedence than + and -. <br>
