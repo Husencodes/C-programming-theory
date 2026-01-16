@@ -214,4 +214,54 @@ return 0;
         void display() {
          printf("Hello");
      } 
- 
+
+## 3. Explain the different data types and declaration of variables in C.
+Data Types in C<br>
+C supports four major categories:<br>
+
+**1. Basic (Primary) Data Types**<br>
+These are fundamental types used to store simple values:<br>
+Data Type	Meaning	Example<br>
+**Int** 	    Integer numbers	   int age = 20;<br>
+**float**	   Single-precision decimal	   float x = 3.5;<br>
+**double**	   Double-precision decimal	   double pi = 3.14159;<br>
+**char**	   Single character	   char grade = 'A';<br>
+
+**2. Derived Data Types**<br>
+Created using basic data types:<br>
+•	**Arrays** → int a[10];<br>
+•	**Pointers **→ int *p;<br>
+•	**Functions** → user-defined<br>
+•	**Structures** → struct student {...};<br>
+•	**Unions** → memory-shared structure<br>
+
+3. **Enumeration Data Type**<br>
+Used to assign names to integral constants.<br>
+Example:<br>
+enum days {Mon, Tue, Wed, Thu};<br>
+
+4.**Void Data Typ**e<br>
+Represents "nothing" or "no value."<br>
+Example:<br>
+void display();<br>
+**Declaration of Variables**<br>
+A variable declaration tells the compiler:<br>
+•	the name of the variable<br>
+•	the type of data it will store<br>
+**Syntax**:<br>
+data_type variable_name;<br>
+**Examples**:<br>
+**int** age;<br>
+**float** marks;<br>
+**char** ch;<br>
+**double** salary;<br>
+Multiple variable declaration:<br>
+**int** a, b, c;<br>
+**float** x, y;<br>
+Initialization during declaration:<br>
+**int** a = 10;<br>
+**char** c = 'A';<br>
+**float** pi = 3.14;<br>
+
+
+
