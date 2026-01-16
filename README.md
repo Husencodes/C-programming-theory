@@ -255,10 +255,10 @@ data_type variable_name;<br>
 **float** marks;<br>
 **char** ch;<br>
 **double** salary;<br>
-Multiple variable declaration:<br>
+**Multiple variable declaration**<br>
 **int** a, b, c;<br>
 **float** x, y;<br>
-Initialization during declaration:<br>
+**Initialization during declaration**:<br>
 **int** a = 10;<br>
 **char** c = 'A';<br>
 **float** pi = 3.14;<br>
