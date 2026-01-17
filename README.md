@@ -320,14 +320,77 @@ Operator precedence defines the order in which operators are evaluated in an exp
 ## 9. What is formatted I/O?<br>
 Formatted input/output refers to input and output operations in C that use a specific format to read or display data.<br>
 The functions **printf()** and **scanf()** are used for formatted I/O with format specifiers like %d, %f, %c.<br>
-________________________________________
+
 ## 10. Define bitwise operators.<br>
 Bitwise operators are operators that perform operations on individual bits of integer data.<br>
 **Examples**: & (AND), | (OR), ^ (XOR), ~ (NOT), << (left shift), >> (right shift).<br>
-________________________________________
+
 ## 11. What is the conditional operator?<br>
 The conditional operator (?:) is a ternary operator used to make a decision based on a condition.<br>
 It returns one value if the condition is true and another value if it is false.<br>
 **Syntax**:<br>**
 **condition ? expression1 : expression2;** <br>
+
+## 5 Marks Questions<br>
+
+## 1. Explain formatted I/O functions in detail <br>
+Explain formatted I/O functions in detail<br>
+Formatted Input/Output functions in C are used to read and display data in a specified format. These functions use format specifiers to control the type, size, and appearance of input and output data. The <br><br>commonly used formatted I/O functions are printf() and scanf().<br>
+
+1. **printf()** – Formatted Output Function<br>
+•	Used to display output on the screen.<br>
+•	It prints data according to the format specified.<br>
+•	Format specifiers indicate the type of data to be printed.<br>
+**Syntax:**<br>
+printf("format string", variable1, variable2, ...);<br>
+**Example:**<br>
+int a = 10;<br>
+float b = 5.5;<br>
+printf("a = %d, b = %.2f", a, b);<br>
+
+2.**scanf()** – Formatted Input Function<br>
+•	Used to read input from the keyboard.<br>
+•	Stores input values into variables.<br>
+•	Uses address operator (&) to store values in memory.<br>
+**Syntax:**<br>
+scanf("format string", &variable1, &variable2, ...);<br>
+**Example:**<br>
+int x;<br>
+scanf("%d", &x);<br>
+
+**Common Format Specifiers**<br>
+•	**%d**→ Integer<br>
+•	**%f** → Float<br>
+•	**%c** → Character<br>
+•	**%s** → String<br>
+
+**Advantages of Formatted I/O**<br>
+•	Easy to use<br>
+•	Supports multiple data types<br>
+•	Provides controlled and formatted output<br>
+
+**Conclusion:** <br>
+Formatted I/O functions (printf() and scanf()) are essential in C programming as they allow input and output of data in a structured and user-friendly format.<br>
+
+
+## 2. Explain the different types of operators in C with examples <br>
+Operators classify as follows (with short examples):<br>
+1.	**Arithmetic operators:** + - * / %<br>
+**Example:** a + b, a * b, a / b (integer division truncates), a % b (remainder).<br>
+2.	**Relational (comparison) operators:** == != > < >= <=<br>
+**Example:** if (a > b) ... returns 1 (true) or 0 (false).<br>
+3.	**Logical operators**: && (AND), || (OR), ! (NOT)<br>
+**Example:** if (a > 0 && b > 0) ...<br>
+4.	**Assignment operators:** = and compound +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=<br>
+**Example:** x += 5; is x = x + 5;<br>
+5.	**Unary operators:** +, -, !, ~ (bitwise NOT), ++, -- (prefix/postfix), & (address), * (dereference), sizeof<br>
+**Example:** ++i;, p = &x;, sizeof(int).<br>
+6.	**Bitwise operators:** & (AND), | (OR), ^ (XOR), ~ (NOT), << (left shift), >> (right shift)<br>
+**Example:** x << 2 shifts left by 2 bits.<br>
+7.	**Ternary operator:** ?:<br>
+**Example:** max = (a > b) ? a : b;<br>
+8.	**Comma operator:** , — evaluates left then right, returns right value.<br>
+**Example:** i = (x++, x + 2); (rare in normal code)<br>
+
+
 
