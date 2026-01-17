@@ -316,3 +316,18 @@ It can be: <br>
 ## 8. What is operator precedence? <br>
 Operator precedence defines the order in which operators are evaluated in an expression. <br>
 **Example:** * and / have higher precedence than + and -. <br>
+
+## 9. What is formatted I/O?<br>
+Formatted input/output refers to input and output operations in C that use a specific format to read or display data.<br>
+The functions **printf()** and **scanf()** are used for formatted I/O with format specifiers like %d, %f, %c.<br>
+________________________________________
+## 10. Define bitwise operators.<br>
+Bitwise operators are operators that perform operations on individual bits of integer data.<br>
+**Examples**: & (AND), | (OR), ^ (XOR), ~ (NOT), << (left shift), >> (right shift).<br>
+________________________________________
+## 11. What is the conditional operator?<br>
+The conditional operator (?:) is a ternary operator used to make a decision based on a condition.<br>
+It returns one value if the condition is true and another value if it is false.<br>
+**Syntax**:<br>**
+**condition ? expression1 : expression2;** <br>
+
