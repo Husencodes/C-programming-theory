@@ -410,4 +410,90 @@ Type conversion = converting a value from one data type to another. Two kinds: <
 
 
 
+## 10 Marks Questions <br>
+
+## 1. Explain all operators in C language with suitable examples.<br>
+Operators are special symbols that perform operations on data. C supports a rich set of operators classified into several categories.<br>
+**1. Arithmetic Operators**<br>
+Used for mathematical operations.<br>
+**Operators**: + - * / %<br>
+**Example:** <br>
+int a = 10, b = 3;<br>
+a + b = 13<br>
+a - b = 7<br>
+a * b = 30<br>
+a / b = 3     // integer division<br>
+a % b = 1     // remainder<br>
+
+**2. Relational Operators**<br>
+Used to compare two values; result is either true (1) or false (0).<br>
+**Operators:** == != > < >= <=<br>
+**Example:**<br>
+a > b   // 1<br>
+a == b  // 0<br>
+
+**3. Logical Operators**<br>
+Used to combine conditions.<br>
+**Operators:** && (AND), || (OR), ! (NOT)<br>
+**Example**:<br>
+if (a > 0 && b > 0)<br>
+
+**4. Assignment Operators**<br>
+Assign values to variables; shorthand form reduces code length.<br>
+**Operators:**<br>
+= += -= *= /= %= <<= >>= &= |= ^=<br>
+**Example:** <br>
+x += 5;   // x = x + 5<br>
+
+**5. Increment and Decrement Operators** <br>
+Increase or decrease the value by 1.<br>
+**Operators:** ++ (increment), -- (decrement)<br>
+**Types:** <br>
+•	Prefix: ++a (increment then use) <br>
+•	Postfix: a++ (use then increment) <br>
+**Example:** <br>
+int a=5;  <br> 
+b = ++a;  // a=6, b=6<br>
+b = a++;  // a=7, b=6 <br>
+
+**6. Bitwise Operators** <br>
+Operate on individual bits. <br>
+**Operators**:<br>
+& (AND), | (OR), ^ (XOR), ~ (NOT), << (Left Shift), >> (Right Shift)<br>
+**Example:** <br>
+a = 5;        // 0101<br>
+b = 3;        // 0011 <br>
+a & b = 1     // 0001 <br>
+a | b = 7     // 0111 <br>
+a ^ b = 6     // 0110 <br>
+a << 1 = 10   // 1010 <br>
+
+**7. Conditional / Ternary Operator** <br>
+Short form of if-else. <br>
+**Syntax:** <br>
+(condition) ? expression1 : expression2; <br>
+**Example**: <br>
+max = (a > b) ? a : b; <br>
+
+**8. Special Operators** <br>
+a) **sizeof Operator** <br>
+Returns the memory size of a data type or variable.<br>
+sizeof(int);      // usually 4 <br>
+sizeof(a); <br>
+**b) Comma Operator** <br>
+Evaluates multiple expressions, returns last value. <br>
+int x = (a = 5, a + 10);   // x = 15 <br>
+**c) Pointer Operators** <br>
+•	& → address-of <br>
+•	* → value at address <br>
+int a = 10; <br>
+int *p = &a;   // p stores address of a <br>
+printf("%d", *p); // prints 10 <br>
+
+9. **Member Access Operators** <br>
+Used with structures: <br>
+•	. → access structure member <br>
+•	-> → access through pointer <br>
+
+
 
