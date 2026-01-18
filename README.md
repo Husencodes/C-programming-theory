@@ -393,4 +393,21 @@ Operators classify as follows (with short examples):<br>
 **Example:** i = (x++, x + 2); (rare in normal code)<br>
 
 
+## 3. Discuss type conversion and type casting with examples <br>
+Type conversion = converting a value from one data type to another. Two kinds: <br>
+1. **Implicit (automatic) conversion (type promotion)** <br>
+•	Performed automatically by compiler when mixed-type expressions occur. <br>
+•	**Example:** int i = 5; float f = 2.0; float r = i + f; — i promoted to float before addition. <br>
+•	Usual arithmetic conversions: smaller integer types promoted to int/unsigned int; int and double — int promoted to double. <br>
+2. **Explicit conversion (type casting)** <br>
+•	Programmer forces conversion using cast syntax (type) expression. <br>
+•	**Example:** float x = 5.0 / (float)2; — cast ensures floating division and result 2.5. <br>
+•	Another: int a = (int)3.9; — value becomes 3 (fraction truncated). <br>
+**Important differences and cautions:** <br>
+•	Implicit conversions can lead to loss of precision or unexpected results (e.g., integer division: 5/2 == 2).<br>
+•	Casting to narrower type can truncate or overflow (e.g., casting large long to int).<br>
+•	Use explicit cast to clarify intent and avoid warnings: (double)sum / count.<br>
+
+
+
 
