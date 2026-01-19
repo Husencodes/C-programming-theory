@@ -524,4 +524,50 @@ A. Formatted Output Functions <br>
 Used to display formatted output on the screen.<br>
 Syntax:<br>
 printf("format string", variables);<br>
+**Example:**
+printf("Sum = %d", a + b);
+**Format Specifiers:**
+
+• %d → int
+• %f → float
+• %c → char
+• %s → string
+• %lf → double
+• %u → unsigned
+• %x/%X → hexadecimal
+• %p → address
+
+Escape Sequences: 
+
+• \n (newline)
+
+• \t (tab)
+
+• \\ (backslash)
+
+• \" (double quote)
+
+(ii) fprintf() 
+
+Writes formatted output to a file.
+
+Example:
+
+fprintf(fp, "Name: %s", name);
+
+(iii) sprintf() / snprintf() 
+
+Writes formatted output to a character array.
+
+sprintf(str, "Value = %d", x);
+
+B. Formatted Input Functions 
+
+(i) scanf() 
+
+Reads formatted input from the keyboard.
+
+Syntax:
+
+scanf("format specifiers", &variables);
 
