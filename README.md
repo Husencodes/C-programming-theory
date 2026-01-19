@@ -495,5 +495,33 @@ Used with structures: <br>
 •	. → access structure member <br>
 •	-> → access through pointer <br>
 
+**Example**:<br>
+struct student s;<br>
+s.age<br>
+ptr->age<br>
 
+10. **Cast Operator** <br>
+Converts one data type to another.<br>
+
+float x = (float)5/2; // 2.5<br>
+
+**Conclusion**: <br>
+C supports a wide variety of operators that make it powerful, flexible, and suitable for <br>
+system-level programming. Proper understanding of operators helps in efficient coding and <br>
+error-free logic.<br>
+
+## 2. Explain formatted and unformatted input/output functions in detail. <br>
+C language provides two categories of input/output (I/O) functions through the <stdio.h><br>
+
+**library**:<br>
+
+1.**Formatted Input/Output Functions**<br>
+These functions allow the programmer to read/write data in a specific format using format <br>
+specifiers.<br>
+
+A. Formatted Output Functions <br>
+(i) **printf()** <br>
+Used to display formatted output on the screen.<br>
+Syntax:<br>
+printf("format string", variables);<br>
 
