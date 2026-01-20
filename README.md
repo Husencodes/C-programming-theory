@@ -527,21 +527,21 @@ printf("format string", variables);<br>
 **Example:** <br>
 printf("Sum = %d", a + b);<br>
 
-    **Format Specifiers:**<br>
-    • %d → int<br>
-    • %f → float<br>
-    • %c → char<br>
-    • %s → string<br>
-    • %lf → double<br>
-    • %u → unsigned<br>
-    • %x/%X → hexadecimal<br>
-    • %p → address<br>
-
-     **Escape Sequences:**  <br>
-    •**\n** (newline)<br>
-    • **\t**  (tab)<br>
-    • **\\**  (backslash)<br>
-    • **\"** (double quote)<br>
+    **Format Specifiers:**
+    • %d → int
+    • %f → float
+    • %c → char
+    • %s → string
+    • %lf → double
+    • %u → unsigned
+    • %x/%X → hexadecimal
+    • %p → address
+    
+     **Escape Sequences:**  
+    •**\n** (newline)
+    • **\t**  (tab)
+    • **\\**  (backslash)
+    • **\"** (double quote)
 
 **(ii) fprintf()** <br>
 Writes formatted output to a file.<br>
@@ -599,13 +599,13 @@ fgets(str, 20, stdin); <br>
 (iv) **fgetc(), fgets()**  <br>
 For file reading <br>
 
-                      **Difference Between Formatted & Unformatted I/O**  <br>
-         **Formatted I/O**                                                  **Unformatted I/O** <br>
-       Uses format specifiers                                            No formatting <br>
-      Works with all data types                                      Works with char/strings  <br>
-          Slower                                                            Faster <br>
-      Functions: printf, scanf                                      getchar, putchar,gets, puts <br>
-       More flexible                                                    Less flexible <br>
+                      **Difference Between Formatted & Unformatted I/O**  
+         **Formatted I/O**                                                  **Unformatted I/O** 
+       Uses format specifiers                                            No formatting
+      Works with all data types                                      Works with char/strings  
+          Slower                                                            Faster 
+      Functions: printf, scanf                                      getchar, putchar,gets, puts 
+       More flexible                                                    Less flexible 
 
 ## UNIT – III: Control Structures, Arrays, and Strings<br>
 ## 2 Marks <br>
@@ -616,11 +616,11 @@ based on conditions or loops.<br>
 **Examples**  include if, if-else, switch, while, for, do-while.<br>
 
 ## 2. Write the syntax of if–else statement.<br>
-    if (condition) {<br>
-    // statements<br>
+    if (condition) {
+    // statements
     }
-    else {<br>
-     // statements<br>
+    else {
+     // statements
     }
 ## 3. What is a loop? Name any two types of loops.<br>
 A loop is a control structure that repeats a block of code until a condition becomes false.<br>
@@ -679,5 +679,22 @@ for(int i=1; i<=5; i++){<br>
  if(i==3)<br>
  break;<br>
 }<br>
+
+       ## 2. Discuss the difference between entry-controlled and exit-controlled
+       loops.
+    Feature        Entry-Controlled Loop                      Exit-Controlled Loop
+    Definition     Condition is checked before                Condition is checked after
+                   executing the loop body.                   executing the loop body.
+    Examples        for, while                                do-while
+                Execution Loop body may not execute even      Loop body executes at least once
+                 once if condition fails.                     even if condition is false
+    Syntax      Evaluation Test → Execute → Repeat            Execute → Test → Repeat      
+                Use Case When number of repetitions is fixed  When loop must run at least once.
+                or condition-based.  
+
+.
+
+
+
                                                         
 
