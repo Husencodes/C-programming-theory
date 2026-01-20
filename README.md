@@ -700,7 +700,45 @@ for(int i=1; i<=5; i++){<br>
                                                                        
                                                                             
                                                                                     
-                                                                                   
+## 3. Explain one-dimensional and two-dimensional arrays with examples.<br>
+**1. One-Dimensional Array** <br>
+A one-dimensional array is a list of elements of the same type stored in continuous memory.<br>
+
+    Declaration
+     int a[5];
+     
+    Initialization
+    int a[5] = {10, 20, 30, 40, 50};
+    
+    Accessing Elements
+    printf("%d", a[2]); // Output: 30
+    Example Program
+    int a[5] = {10, 20, 30, 40, 50};
+     for(int i=0; i<5; i++){
+    printf("%d ", a[i]);
+     }
+     
+**2. Two-Dimensional Array**<br>
+A two-dimensional array is like a table with rows and columns.<br>
+
+    Declaration
+    int a[2][3];
+    Initialization
+    int a[2][3] = {
+     {1, 2, 3},
+      {4, 5, 6}
+    };
+    
+      Accessing Elements
+      printf("%d", a[1][2]); // Output: 6
+      
+      Example Program 
+      int a[2][3] = {{1,2,3},{4,5,6}};
+       for(int i=0; i<2; i++){
+       for(int j=0; j<3; j++){
+     printf("%d ", a[i][j]);
+     }
+    }
 
             
 
