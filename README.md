@@ -460,7 +460,7 @@ b = a++;  // a=7, b=6 <br>
 Operate on individual bits. <br>
 **Operators**:<br>
 & (AND), | (OR), ^ (XOR), ~ (NOT), << (Left Shift), >> (Right Shift)<br>
-**Example:** <br>
+ **Example:** <br>
 a = 5;        // 0101<br>
 b = 3;        // 0011 <br>
 a & b = 1     // 0001 <br>
@@ -495,10 +495,10 @@ Used with structures: <br>
 •	. → access structure member <br>
 •	-> → access through pointer <br>
 
-**Example**:<br>
-struct student s;<br>
-s.age<br>
-ptr->age<br>
+       **Example**:<br>
+       struct student s;<br>
+       s.age<br>
+       ptr->age<br>
 
 10. **Cast Operator** <br>
 Converts one data type to another.<br>
@@ -524,50 +524,143 @@ A. Formatted Output Functions <br>
 Used to display formatted output on the screen.<br>
 Syntax:<br>
 printf("format string", variables);<br>
-**Example:**
-printf("Sum = %d", a + b);
-**Format Specifiers:**
+**Example:** <br>
+printf("Sum = %d", a + b);<br>
 
-• %d → int
-• %f → float
-• %c → char
-• %s → string
-• %lf → double
-• %u → unsigned
-• %x/%X → hexadecimal
-• %p → address
+    **Format Specifiers:**<br>
+    • %d → int<br>
+    • %f → float<br>
+    • %c → char<br>
+    • %s → string<br>
+    • %lf → double<br>
+    • %u → unsigned<br>
+    • %x/%X → hexadecimal<br>
+    • %p → address<br>
 
-Escape Sequences: 
+     **Escape Sequences:**  <br>
+    •**\n** (newline)<br>
+    • **\t**  (tab)<br>
+    • **\\**  (backslash)<br>
+    • **\"** (double quote)<br>
 
-• \n (newline)
+**(ii) fprintf()** <br>
+Writes formatted output to a file.<br>
 
-• \t (tab)
+**Example:** <br>
+fprintf(fp, "Name: %s", name);<br>
 
-• \\ (backslash)
+**(iii) sprintf() / snprintf()** <br>
+Writes formatted output to a character array.<br>
+sprintf(str, "Value = %d", x);<br>
 
-• \" (double quote)
+**B. Formatted Input Functions** <br>
+**(i) scanf()** <br>
+Reads formatted input from the keyboard.<br>
+**Syntax:**<br>
+scanf("format specifiers", &variables);<br>
+scanf("%d %f", &a, &b);<br>
+Points to Remember:<br>
+• For %d, %f, %c, %lf, %s → use & (address-of) operator<br>
+• %s stops at whitespace<br>
+• Use width specifier to avoid overflow: scanf("%19s", name)<br>
 
-(ii) fprintf() 
+**(ii)fscanf()** <br>
+Reads formatted input from a file.<br>
+fscanf(fp, "%d", &num);<br>
 
-Writes formatted output to a file.
+**(iii)sscanf()** <br>
+Reads formatted data from a string.<br>
+sscanf(str, "%d", &num);<br>
 
-Example:
+**2. Unformatted Input/Output Functions** <br>
+Used for raw character or string handling without any formatting. More efficient for<br>
+simpler data.<br>
+A. Unformatted Output Functions<br>
+**(i)putchar()** <br>
+Writes a single character to the screen.<br>
+putchar('A');<br>
+**(ii)puts()** <br>
+Writes a string followed by newline.<br>
+puts("Hello World");<br>
+**(iii) fputc(), fputs()**  <br>
+Used for file operations. <br>
+fputc('A', fp); <br>
+fputs("Hello", fp); <br>
 
-fprintf(fp, "Name: %s", name);
+**B. Unformatted Input Functions** <br>
+**(i)getchar()** <br>
+Reads a single character. <br>
+ch = getchar(); <br>
+**(ii)gets()** (unsafe, removed from C11) <br>
+Reads a string until newline. <br>
+(iii) **fgets()** (safe alternative) <br>
+Reads a line including spaces. <br>
+fgets(str, 20, stdin); <br>
+(iv) **fgetc(), fgets()**  <br>
+For file reading <br>
 
-(iii) sprintf() / snprintf() 
+                      **Difference Between Formatted & Unformatted I/O**  <br>
+         **Formatted I/O**                                                  **Unformatted I/O** <br>
+       Uses format specifiers                                            No formatting <br>
+      Works with all data types                                      Works with char/strings  <br>
+          Slower                                                            Faster <br>
+      Functions: printf, scanf                                      getchar, putchar,gets, puts <br>
+       More flexible                                                    Less flexible <br>
 
-Writes formatted output to a character array.
+## UNIT – III: Control Structures, Arrays, and Strings<br>
+## 2 Marks <br>
 
-sprintf(str, "Value = %d", x);
+## 1. What is a control statement?<br>
+A control statement is a statement in C that controls the flow of execution of a program<br>
+based on conditions or loops.<br>
+**Examples**  include if, if-else, switch, while, for, do-while.<br>
 
-B. Formatted Input Functions 
+## 2. Write the syntax of if–else statement.<br>
+    if (condition) {<br>
+    // statements<br>
+    }
+    else {<br>
+     // statements<br>
+    }
+## 3. What is a loop? Name any two types of loops.<br>
+A loop is a control structure that repeats a block of code until a condition becomes false.<br>
+**Two types:**  for loop, while loop.<br>
+## 4. What is a break statement?<br>
+The break statement is used to terminate a loop or switch statement immediately, and<br>
+control transfers to the next statement after the loop/switch.<br>
+## 5. What is an array?<br>
+An array is a collection of elements of the same data type, stored in contiguous memory<br>
+locations, accessed using an index.<br>
+## 6. Define a two-dimensional array. <br>
+A two-dimensional array is an array of arrays, used to store elements in rows and columns<br>
+(matrix format).<br>
+Example: int a[3][3];<br>
+## 7. What is a string in C?<br>
+A string in C is a character array terminated with a null character ('\0').<br>
+Example: char name[10] = "Husen";<br>
+## 8. Mention any two string handling functions.<br>
+• **strlen(str)** – returns length of string<br>
+•**strcpy(dest, src)** – copies one string into another<br>
+(Other examples: strcat(), strcmp())<br>
+## 5 Marks Questions<br>
 
-(i) scanf() 
+## 1. Explain different types of control statements in C.<br>
+Control statements in C are used to control the flow of execution of a program. They allow<br>
+decisions, repetitions, and jumping in the program.<br>
+They are mainly classified into three types:<br>
 
-Reads formatted input from the keyboard.
+1. **Decision Control Statements** <br>
+Used to make decisions based on conditions.<br>
+• if<br>
+• if-else<br>
+• nested if<br>
+• switch<br>
+ **Example:** <br>
+ if (a > b){<br>
+ printf("A is greater");<br>
+}<br>
 
-Syntax:
-
-scanf("format specifiers", &variables);
+2.**Looping / Iteration Statements**<br>
+Used to repeat a set of statements.<br>
+                                                        
 
