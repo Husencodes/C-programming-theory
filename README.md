@@ -692,7 +692,17 @@ for(int i=1; i<=5; i++){<br>
                 Use Case When number of repetitions is fixed  When loop must run at least once.
                 or condition-based.  
 
-.
+    Example: Entry-controlled (while)                              Example: Exit-controlled (do-while)
+    while(x < 5){                                                        do{
+    printf("%d", x);                                                       printf("%d", x);
+    x++;                                                                      x++;
+    }                                                                        }while(x < 5); 
+                                                                       
+                                                                            
+                                                                                    
+                                                                                   
+
+            
 
 
 
