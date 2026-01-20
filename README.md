@@ -662,5 +662,22 @@ Used to make decisions based on conditions.<br>
 
 2.**Looping / Iteration Statements**<br>
 Used to repeat a set of statements.<br>
+     • for loop<br>
+     • while loop<br>
+     • do-while loop<br>
+   **Example:** <br>
+   for(int i=1; i<=5; i++){<br>
+   printf("%d ", i);<br>
+ }<br>
+**3. Jump Statements**<br>
+Used to jump from one part of the program to another.<br>
+• break<br>
+• continue<br>
+• goto<br>
+• return Example:<br>
+for(int i=1; i<=5; i++){<br>
+ if(i==3)<br>
+ break;<br>
+}<br>
                                                         
 
