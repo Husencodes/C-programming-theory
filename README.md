@@ -3095,6 +3095,6 @@ int main() {
 
 ---
 
-*Prepared by  Husen** | Best of luck for your examinations!*
+**Prepared by  Husen** | Best of luck for your examinations!*
 
 *Read carefully · Code daily · Stay consistent 💪*
